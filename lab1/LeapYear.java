@@ -2,6 +2,9 @@
  *  @author YOUR NAME HERE
  */
 public class LeapYear {
+    /** Check a given year is LeapYear or not. 
+     * will return a boolean value
+     */
     public static boolean isLeapYear(int year){
         if (year % 4 == 0){
             if (year % 100 == 0){
